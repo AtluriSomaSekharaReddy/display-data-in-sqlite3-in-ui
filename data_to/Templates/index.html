@@ -1,0 +1,10 @@
+<form action="",method="POST",style="margin: auto; width: 220px;">
+    {% csrf_token %}
+    <label>Enter Name</label><br>  
+    <input type="text" name="name"><br>  
+    <label>Age:</label><br>  
+    <input type="number" name="age"><br>
+    <label>City</label><br>  
+    <input type="text" name="city"><br>  
+    <br><input type="submit" value="Add data">  
+</form>
