@@ -13,6 +13,7 @@ def index(request):
         databaseData.age=age
         databaseData.city=city
         databaseData.save()
+        temp=22
     return render(request, 'index.html')  
 def view(request):
     data= Information.objects.all()
